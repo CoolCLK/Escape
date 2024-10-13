@@ -1,0 +1,19 @@
+name: Escape
+version: '${version}'
+main: coolclk.escape.Escape
+api-version: '1.20.6'
+author: CoolCLK
+depend:
+  - NBTAPI
+softdepend:
+  - floodgate
+commands:
+  escape:
+    description: Escape command.
+permissions:
+  escape.command.give:
+    default: op
+  escape.command.clear:
+    default: op
+  escape.command.treasure:
+    default: op
